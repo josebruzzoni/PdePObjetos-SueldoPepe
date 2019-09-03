@@ -1,0 +1,13 @@
+import example.*
+import categorias.*
+import bonos.*
+
+
+
+
+test "pepe cadete sin ningun bono, solo cobra su sueldo neto" {
+	pepe.cambiarPosicion(cadete)
+	
+	assert.equals(pepe.obtenerSueldoNeto(),pepe.obtenerSueldo())
+
+}
